@@ -1,7 +1,9 @@
 package main
 
-import "widesocks/common/slog"
+import (
+	"widesocks/app/local"
+)
 
 func main() {
-	slog.Info("ss local")
+	local.Run()
 }
